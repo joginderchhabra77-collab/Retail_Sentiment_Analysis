@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local caches
+.cache/
+.streamlit/secrets.toml
+
+# Large model and training artifacts
+*.pt
+*.pth
+*.safetensors
+
+# Local application data
+private_data/
+customer_data_private/
+
+# OS files
+.DS_Store
+Thumbs.db
